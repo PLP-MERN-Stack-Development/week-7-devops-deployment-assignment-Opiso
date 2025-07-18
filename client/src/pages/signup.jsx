@@ -37,7 +37,7 @@ const Signup = () => {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "http://localhost:5000/api/user/signup",
+        "https://week-7-devops-deployment-assignment-6hen.onrender.com/api/user/signup",
         formData
       );
       dispatch(hideLoading());

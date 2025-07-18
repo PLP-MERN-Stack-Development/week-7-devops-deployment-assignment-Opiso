@@ -23,7 +23,7 @@ const Login = () => {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "http://localhost:5000/api/user/login",
+        "https://week-7-devops-deployment-assignment-6hen.onrender.com/api/user/login",
         formData
       );
       dispatch(hideLoading());
